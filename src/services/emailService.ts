@@ -24,7 +24,7 @@ export const sendContactEmail = async (formData: EmailData): Promise<boolean> =>
         ? 'EMERGENCY'
         : urgency.charAt(0).toUpperCase() + urgency.slice(1).toLowerCase();
 
-    // Prepare template parameters
+    // Prepare template parameters. Random
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
