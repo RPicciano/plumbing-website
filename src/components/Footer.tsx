@@ -128,24 +128,6 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* Google Map */}
-        <div className="mt-12">
-          <h4 className="text-lg font-semibold mb-4">Our Service Area</h4>
-          <div className="bg-gray-800 rounded-lg p-4 text-center">
-            <div className="aspect-video bg-gray-700 rounded-lg flex items-center justify-center mb-4">
-              <div className="text-center">
-                <MapPin className="h-12 w-12 text-blue-400 mx-auto mb-2" />
-                <p className="text-gray-300">Interactive map coming soon</p>
-                <p className="text-gray-400 text-sm">Currently serving Bloomfield and surrounding areas</p>
-              </div>
-            </div>
-            <p className="text-gray-300 text-sm">
-              Proudly serving: Bloomfield, Montclair, Glen Ridge, Belleville, Nutley, Clifton, 
-              Newark, East Orange, Orange, West Orange, Verona, and Cedar Grove
-            </p>
-          </div>
-        </div>
       </div>
 
       {/* Bottom Bar */}
